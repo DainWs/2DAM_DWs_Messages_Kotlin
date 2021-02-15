@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_sign_in">Iniciar sesión o Registrarme</string>
+    <string name="action_sign_in_short">Registrarse</string>
+    <string name="action_log_in_short">Iniciar sesión</string>
+    <string name="login_failed">" Error en el inicio de sesión"</string>
+    <string name="login_or">ó</string>
+    <string name="login_if">Si aun no tienes una cuenta</string>
+    <string name="login_with">Puedes iniciar sesión con</string>
+    <string name="sign_in_google">Inicia sesión con Google</string>
+    <string name="error_failed_on_login_message">Error al iniciar sesión</string>
+    <string name="error_registration_failed_message">Error al registrarse</string>
+    <string name="sign_up_no_mail_found">Rellene el campo del correo</string>
+    <string name="sign_up_no_password_found">Rellene el campo de la contraseña</string>
+    <string name="login_mal_formed_mail">El correo esta mal formada</string>
+    <string name="login_bad_credentials">El correo o la contraseña son incorrectas</string>
+    <string name="login_weak_password">La contraseña es demasiado debil</string>
+    <string name="login_already_registered">Este correo ya esta registrado</string>
+    <!-- Strings for dialogs -->
+    <string name="dialog_create_user_message">El correo que ha introducido aun no se encuentra registrado en nuestra base de datos, ¿desea registrarse?</string>
+    <string name="dialog_create_user_username">Nombre de Usuario</string>
+    <string name="dialog_yes">Si</string>
+    <string name="dialog_no">No</string>
+    <string name="dialog_confirm">Confirmar</string>
+    <string name="dialog_cancel">Cancelar</string>
+    <string name="dialog_registrarse">Registrarse</string>
+    <!-- Strings for app -->
+    <string name="username">Nombre del usuario</string>
+    <string name="mail">Mail</string>
+    <string name="phone_number">Numero de teléfono</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="action_bar_settings">Ajustes</string>
+    <string name="photo_description">Esto es una Foto</string>
+    <string name="button_send">Enviar</string>
+    <string name="None">Ninguno</string>
+    <string name="log_in_empty_error">rellena los campos</string>
+    <string name="sign_in_with_google">Iniciar sesión con google</string>
+    <string name="dialog_edit_phone">Editando el numero de teléfono</string>
+    <string name="dialog_edit_username">Editando nombre del usuario</string>
+    <string name="dialog_edit_field_empty">el campo esta en blanco, por lo tanto los datos NO seran modificados</string>
+    <string name="invalid_character">Los unicos caracteres validos son :</string>
+    <string name="invalid_phone_lenght">La longitud del numero de telefono es demasiado corto.</string>
+    <string name="dialog_replace_account">Al iniciar sesion con google, se creara una cuenta, si ya tienes una cuenta con este correo electronico, esta sera remplazada con la de google, es decir, solo podras iniciar sesión con google, ¿estas seguro?</string>
+    <string name="action_new_group">Nuevo Grupo</string>
+    <string name="group_name_hint">Nombre del grupo</string>
+    <string name="participants">Participantes</string>
+</resources>

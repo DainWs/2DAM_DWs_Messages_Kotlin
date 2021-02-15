@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="5dp"
+    android:background="@drawable/border"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/message_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="2"
+        android:gravity="center_vertical"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textSize="18sp"
+        tools:text="Alfonso" />
+
+    <View
+        android:id="@+id/hr"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/message_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        tools:text="AAAAAAAAAAAAA aaaaaa a a  aaaaaaaaaaaa aaaaaaaaaaaa  aaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaa aaaa a a aaaaaaaaa a aaaaa aaaaaaaaaaaaa" />
+
+    <TextView
+        android:id="@+id/message_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="end"
+        tools:text="00:00 30/12/2020" />
+
+</LinearLayout>

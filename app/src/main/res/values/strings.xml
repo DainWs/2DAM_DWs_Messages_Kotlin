@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name" translatable="false">DWs Messages</string>
+    <!-- Strings related to login -->
+    <string name="mail_hint" translatable="false">Mail</string>
+    <string name="password_hint" translatable="false">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_log_in_short">Log in</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="login_or">Or</string>
+    <string name="login_if">If you don\'t have an account yet</string>
+    <string name="login_with">You can sign in with</string>
+    <string name="sign_in_google">Sign in with Google</string>
+    <string name="error_failed_on_login_message">" Failed to login"</string>
+    <string name="error_registration_failed_message">Registration failed</string>
+    <string name="sign_up_no_mail_found">Fill in the email field</string>
+    <string name="sign_up_no_password_found">Fill in the password field</string>
+    <string name="login_mal_formed_mail">The mail is badly formed</string>
+    <string name="login_bad_credentials">The email or password is incorrect</string>
+    <string name="login_weak_password">Password too weak</string>
+    <string name="login_already_registered">This email is already registered</string>
+    <!-- Strings for dialogs -->
+    <string name="dialog_create_user_message">The mail you have entered is not yet registered in our database, do you want to register?</string>
+    <string name="dialog_create_user_username">Username</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+    <string name="dialog_confirm">Confirm</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_registrarse">Sign up</string>
+    <!-- Strings for app -->
+    <string name="username">Username</string>
+    <string name="mail">Mail</string>
+    <string name="phone_number">Phone number</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="action_bar_settings">Settings</string>
+    <string name="photo_description">This is a Photo</string>
+    <string name="button_send">Send</string>
+    <string name="None">None</string>
+    <string name="log_in_empty_error">Fill in the fields</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="dialog_edit_phone">Edit phone number</string>
+    <string name="dialog_edit_username">Edit username</string>
+    <string name="dialog_edit_field_empty">The field is blank, therefore the data will NOT be modified</string>
+    <string name="invalid_character">The only valid characters are :</string>
+    <string name="invalid_phone_lenght">The lenght of the phone number is too short.</string>
+    <string name="dialog_replace_account">When you log in with google, an account will be created, if you already have an account with this email, it will be replaced with google, that is, you can only log in with google, are you sure?</string>
+    <string name="action_new_group">New Group</string>
+    <string name="group_name_hint">Group name</string>
+    <string name="participants">Participants</string>
+</resources>

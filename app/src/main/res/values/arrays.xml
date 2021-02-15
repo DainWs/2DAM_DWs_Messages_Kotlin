@@ -1,0 +1,8 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="show_username_like">
+        <item>@string/username</item>
+        <item>@string/mail</item>
+        <item>@string/phone_number</item>
+    </string-array>
+</resources>

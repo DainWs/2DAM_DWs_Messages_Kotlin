@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@android:color/white"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp">
+
+        <ImageView
+            android:id="@+id/contact_item_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/photo_description"
+            android:padding="6dp"
+            android:src="@color/colorTertiary" />
+
+        <ImageView
+            android:id="@+id/contact_item_photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/photo_description"
+            android:padding="6dp"
+            android:src="@mipmap/app_default_user_photo" />
+
+        <ImageView
+            android:id="@+id/contact_item_frame_photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/photo_description"
+            android:src="@drawable/profile_rounded_corners" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/contact_item_username"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textSize="18sp"
+        tools:text="Alfonso" />
+
+    <CheckBox
+        android:id="@+id/selection_chip"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        tools:text="150" />
+
+</LinearLayout>

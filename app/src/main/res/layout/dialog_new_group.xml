@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="@string/group_name_hint"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        tools:text="@string/group_name_hint" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/users_group_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginTop="0dp"
+        android:minHeight="200dp"
+        app:layoutManager="LinearLayoutManager"
+        tools:listitem="@layout/dialog_new_group_user_item" />
+
+
+</LinearLayout>

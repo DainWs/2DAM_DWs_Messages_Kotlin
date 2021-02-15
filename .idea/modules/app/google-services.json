@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "145454261613",
+    "firebase_url": "https://dws-messages-kotlin-default-rtdb.firebaseio.com",
+    "project_id": "dws-messages-kotlin",
+    "storage_bucket": "dws-messages-kotlin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145454261613:android:ef5b3baac6be552736a664",
+        "android_client_info": {
+          "package_name": "com.joseduarte.dwsmessageskotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "145454261613-7jl8brj7ss7t1dvbpetifuvlnon2pkpj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.joseduarte.dwsmessageskotlin",
+            "certificate_hash": "0931d6d46ffde60c974ab71bd46fc20a2f175f2a"
+          }
+        },
+        {
+          "client_id": "145454261613-lrt05bh5g7uvfqe1cjqgiluin0vcqf4s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8t3njqZbFZSCgBd2yjFsmIRAFEgmJJ8s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "145454261613-lrt05bh5g7uvfqe1cjqgiluin0vcqf4s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
